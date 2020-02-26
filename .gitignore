@@ -3,3 +3,4 @@ config/
 nodemon
 npm
 web-server@1.0.0
+.env

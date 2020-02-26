@@ -5,18 +5,18 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "env-cmd ./config/dev.env nodemon src/app.js -e js,hbs"
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "Justin Adams",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "hbs": "^4.1.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "env-cmd": "^10.1.0",
     "nodemon": "^2.0.2"
   }
 }
